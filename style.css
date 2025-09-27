@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+header {
+    height: 86px;
+    flex-shrink: 0;
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    height: 86px;
+    width: 1250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    display: inline-flex;
+}
+header div h1{
+    height: 45px;
+    color: #001858;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+header div h3{
+    width: 48px;
+    height: 27px;
+    color: #6246EA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 21px;
+}
+
+header nav ul{
+    display: inline-flex;
+    gap: 50px;
+}
+header nav ul a{
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+header nav ul img{
+    margin-right: 10px;
+}
+header nav button{
+    height: 44px;
+    width: 213px;
+    padding-bottom: 10px;
+    gap: 10px;
+    border-radius: 4px;
+    background: #6246EA;
+    border: none;
+    margin-left: 50px;
+}
+header button img{
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
+header button a{
+    color: #FFFFFE;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
