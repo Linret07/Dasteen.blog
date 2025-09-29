@@ -222,17 +222,28 @@ header button a{
     align-items: start;
     justify-content: center;
 }
+.card:hover{
+    background: #6246EA;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.card:hover p{
+    color: #FFFFFE;
+}
 .card-image{
     width: 100px;
     height: 120px;
     margin-left: 30px;
-
 }
-.card-image img{
-    width: 60px;
-    height: 60px;
+.card-image div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
     flex-shrink: 0;
-    margin-bottom: 30px;
+    border-radius: 7px;
+    background:#FFFFFE;
 }
 .card-image p{
     height: 30px;
@@ -242,4 +253,32 @@ header button a{
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    margin-top: 30px;
 }
+.FeaturedArticle{
+    height: 4792px;
+    background: #FFFFFE;
+    display: flex;
+    justify-content: center;
+}
+.article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1252px;
+    height: 35px;
+    padding: 2px 0 3px 0;
+    gap: 904px;
+    flex-shrink: 0;
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 80px;
+}
+.article a{
+    color: #2B2C34;
+}
+
