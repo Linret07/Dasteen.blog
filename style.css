@@ -493,6 +493,15 @@ footer{
     font-family: "Plus Jakarta Sans", sans-serif;
     background: #E4E5E9;
 }
+.footer{
+    height: 365px;
+    width: 1249px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 580px;
+}
 .boxes{
     display: flex;
     justify-content: center;
@@ -566,19 +575,18 @@ footer{
     width: 24px;
     height: 24px;
 }
-footer hr{
-    width: 1440px;
+.hr{
+    width: 1500px;
     height: 1px;
     background: #C0C0C0;
     border: none;
-    margin-left: 310px;
 }
-footer h6{
+.h6{
     color: #2B2C34;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-top: 25px;
-    margin-left: 310px;
+    margin-left: -1375px;
 }
