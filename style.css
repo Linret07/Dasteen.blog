@@ -501,7 +501,7 @@ footer{
     height: 435px;
     flex-shrink: 0;
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 70px 96px 50px 95px;
@@ -590,7 +590,7 @@ footer{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    display: flex;
-    top: 26px;
+    position: relative;
+    right: 560px;
 
 }
