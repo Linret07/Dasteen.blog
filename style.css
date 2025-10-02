@@ -494,7 +494,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .footer{
     width: 1140px;
@@ -592,5 +591,4 @@ footer{
     line-height: normal;
     position: relative;
     right: 560px;
-
 }
