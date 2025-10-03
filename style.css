@@ -521,7 +521,7 @@ footer{
     align-items: flex-start;
     gap: 25px;
 }
-.content2 p {
+.content2 a{
     color: #2B2C34;
     font-size: 18px;
     font-style: normal;
